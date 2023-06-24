@@ -37,7 +37,7 @@ spec:
   selector:
     app: "react-ui"
   type: NodePort
-  ports:
+  ports: 32000
   - name: "react-ui"
     port: 8081
     targetPort: 8080
